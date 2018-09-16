@@ -40,7 +40,7 @@ var questions = [
     var incorrectCount= 0;
     var unanswered= 0;
     var intervalId;
-    var timer = 5;
+    var timer = 20;
     var userGuess= " ";
     var qCount= questions.length
     var running = false;
@@ -50,7 +50,7 @@ var questions = [
     var newArray= [];
     
 
-    $("#reset").hide();
+    
 
     $("#startGame").on("click", function () {
 		$("#startGame").hide();
