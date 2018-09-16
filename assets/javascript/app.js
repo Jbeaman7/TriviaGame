@@ -88,7 +88,7 @@ var questions = [
         $("#answers").text("")
         index = Math.floor(Math.random() * questions.length);
         pick = questions[index];
-        timer = 5;
+        timer = 20;
         startTimer();
 
 
